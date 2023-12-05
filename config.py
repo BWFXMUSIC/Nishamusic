@@ -18,7 +18,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "NykaaXbot")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "Nykaa")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
+ASSUSERNAME = getenv("ASSUSERNAME" , "NYKAA_ASS")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -54,8 +54,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "033527cd1c4d40159c48e25bd700bc4d")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "55eeef4831f54d568344b06429ef181a")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
