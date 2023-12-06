@@ -15,7 +15,7 @@ async def instatus(app, message):
         enums.ChatMemberStatus.ADMINISTRATOR,
         enums.ChatMemberStatus.OWNER,
     ):
-        sent_message = await message.reply_text("ɢᴇᴛᴛɪɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ...")
+        sent_message = await message.reply_text("๏ ɢᴇᴛᴛɪɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ...")
         deleted_acc = 0
         premium_acc = 0
         banned = 0
@@ -37,15 +37,16 @@ async def instatus(app, message):
         timelog = "{:.2f}".format(end_time - start_time)
         await sent_message.edit(f"""
 **➖➖➖➖➖➖➖
-➲ ɴᴀᴍᴇ : {message.chat.title} ✅
-➲ ᴍᴇᴍʙᴇʀs : [ {count} ]🫂
+๏ ɴᴀᴍᴇ ➠ {message.chat.title} ☤
+๏ ᴍᴇᴍʙᴇʀs ➠ [ {count} ]⚚
 
-➲ ʙᴏᴛs : {bot}💡
-➲ ᴢᴏᴍʙɪᴇs : {deleted_acc}🧟
-➲ ʙᴀɴɴᴇᴅ : {banned}🚫
-➲ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs : {premium_acc}🎁
-➖➖➖➖➖➖➖
-ᴛɪᴍᴇ ᴛᴀᴋᴇɴ : {timelog} S**""")
+๏ ʙᴏᴛs ➠ {bot} ⚕
+๏ ᴢᴏᴍʙɪᴇs ➠ {deleted_acc} ☤
+
+๏ ʙᴀɴɴᴇᴅ ➠ {banned} ⚕
+๏ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs ➠ {premium_acc}⚚
+
+๏ ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➠ {timelog} S**""")
     else:
         sent_message = await message.reply_text("ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴛʜɪs !")
         await sleep(5)
