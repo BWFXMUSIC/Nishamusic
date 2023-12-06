@@ -36,18 +36,18 @@ async def instatus(app, message):
         end_time = time.perf_counter()
         timelog = "{:.2f}".format(end_time - start_time)
         await sent_message.edit(f"""
-**➖➖➖➖➖➖➖
+**•❅─────✧❅✦❅✧─────❅•
+
 ๏ ɴᴀᴍᴇ ➠ {message.chat.title} ☤
 ๏ ᴍᴇᴍʙᴇʀs ➠ [ {count} ]⚚
-
 ๏ ʙᴏᴛs ➠ {bot} ⚕
 ๏ ᴢᴏᴍʙɪᴇs ➠ {deleted_acc} ☤
-
 ๏ ʙᴀɴɴᴇᴅ ➠ {banned} ⚕
 ๏ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs ➠ {premium_acc}⚚
+๏ ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➠ {timelog} s
 
-๏ ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➠ {timelog} S**""")
+๏ ᴍᴀᴅᴇ ʙʏ ➠ [ɴʏᴋᴀᴀ](https://t.me/roy_editx) ☤**""")
     else:
-        sent_message = await message.reply_text("ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴛʜɪs !")
+        sent_message = await message.reply_text("๏ ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴛʜɪs !")
         await sleep(5)
         await sent_message.delete()
