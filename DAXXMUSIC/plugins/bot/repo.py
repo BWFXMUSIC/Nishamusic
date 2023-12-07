@@ -4,7 +4,7 @@ from DAXXMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя 『ᴀғᴋ』﹤/3 『ᴘᴀᴡᴀɴ』⸙ яєρσѕ ✪
+✪ ωεℓ¢σмє ƒσя 『ᴍʀ』﹤/3 『ᴘᴀᴡᴀɴ』⸙ яєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -22,7 +22,7 @@ start_txt = """**
 
 
 
-@app.on_message(filters.command("Pawan"))
+@app.on_message(filters.command("Angel"))
 async def start(_, msg):
     buttons = [
         [ 
