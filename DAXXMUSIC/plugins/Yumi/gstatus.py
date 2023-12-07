@@ -46,7 +46,7 @@ async def instatus(app, message):
 ๏ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs ➠ {premium_acc}⚚
 ๏ ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➠ {timelog} s
 
-๏ ᴍᴀᴅᴇ ʙʏ ➠ [ɴʏᴋᴀᴀ](https://t.me/roy_editx) ☤**""")
+๏ ᴍᴀᴅᴇ ʙʏ ➠ ᴘᴀᴡᴀɴ ☤**""")
     else:
         sent_message = await message.reply_text("๏ ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴛʜɪs !")
         await sleep(5)
